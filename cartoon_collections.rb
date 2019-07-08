@@ -8,8 +8,9 @@ end
 
 def summon_captain_planet(call)
   call.collect {|word| word.capitalize}
-  each do |word|
-    
+  each do |word|call_2 = calls.join("! ") 
+  call_2 << "!"
+  call_2.split    
   end
 end
 
