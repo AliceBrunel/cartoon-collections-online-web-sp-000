@@ -7,7 +7,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(call)
-  calls = ["earth", "wind", "fire", "water", "heart"].collect {|word| word.capitalize}
+  calls = call.collect {|word| word.capitalize}
   call_2 = calls.join("! ") 
   call_2 << "!"
   call_2.split
