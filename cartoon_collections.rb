@@ -8,8 +8,6 @@ end
 
 def summon_captain_planet(call)
   each call.collect {|word| word.capitalise}
-    
-  end
 end
 
 def long_planeteer_calls# code an argument here
