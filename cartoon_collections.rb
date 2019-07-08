@@ -7,7 +7,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(call)
-  each call.collect {do |word|}
+  each call.collect {|word| word.capitalise}
     
   end
 end
