@@ -11,7 +11,6 @@ def summon_captain_planet(call)
   call_2 = calls.join("! ") 
   call_2 << "!"
   call_2.split
-  end
 end
 
 def long_planeteer_calls# code an argument here
